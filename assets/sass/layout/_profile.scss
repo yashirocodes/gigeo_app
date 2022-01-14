@@ -1,0 +1,37 @@
+// START PAGE
+/*|- START PROFILE PAGE -|*/
+
+.profile {
+    
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+    }
+
+    &__img-container{
+        width: 7.1rem;
+    }
+    &__img {
+        padding: 1rem;
+        width: 7rem;
+        height: 7rem;
+        border-radius: 10rem;
+        object-fit: cover;
+    }
+    &__data{
+        width: 14%;
+    }
+    &__name {
+        font-family: $lexend;
+        font-size: $x-large;
+        font-weight: $bold
+        
+    } 
+    &__numbers {
+        font-family: $lexend;
+        color: $gray-hint;
+    }
+}
+

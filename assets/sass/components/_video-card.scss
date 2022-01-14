@@ -1,0 +1,10 @@
+// PAGE START | COMPONENTS | CARD COMPONENT MOD-
+
+.card{
+    border: none;
+    &-img-top{
+        border-radius: 0px;
+        height: 10rem;
+        object-fit: cover;
+    }
+}
