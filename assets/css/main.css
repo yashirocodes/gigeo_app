@@ -10760,15 +10760,8 @@ p {
 /*TYPOGRAPHY PAGE START*/
 /*|- FONT FAMILY'S TYPERFACES -|*/
 /*|- NAVIGATOR PAGE START -|*/
-.nav {
-  width: 100%;
-  height: 5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .nav__logo {
-  padding-left: 6rem;
+  padding-left: 3rem;
 }
 .nav__text-logo {
   font-family: "Jost", sans-serif;
@@ -10779,11 +10772,10 @@ p {
   font-size: 1rem;
   top: -1.5em;
 }
-.nav__link {
-  color: black;
-}
-.nav__icon {
-  font-size: 2.5rem;
+
+.nav-link {
+  font-size: 2rem;
+  color: #110C0B !important;
 }
 
 .banner {
